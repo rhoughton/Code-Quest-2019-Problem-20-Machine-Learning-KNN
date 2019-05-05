@@ -32,7 +32,7 @@ file = open ("birdinputfile.txt", "w")
 file.write(str(cases) + "\n")
 
 for i in range (cases):
-    knownBirdsCases = 6 #random.randint(30, 100) #Preferably a large sample size that's a multiple of 3
+    knownBirdsCases = 90 #random.randint(30, 100) #Preferably a large sample size that's a multiple of 3
     unknownBirdsCases = random.randint(1,10)
     g = round(knownBirdsCases/3)
     gx = g
